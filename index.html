@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abdullah Shehawey | Embedded Software Engineer</title>
+  <meta name="description" content="Embedded Software Engineer | C/C++ | RTOS | AUTOSAR" />
+
+  <!-- Tailwind (no install) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide Icons (no install) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    :root{
+      --bg: #060a0f;
+      --panel: #0b111a;
+      --text: #e6f0ff;
+      --muted: rgba(230,240,255,.65);
+      --neon: #18e7d7;
+      --neon-2: #22c7ff;
+    }
+
+    html, body {
+      height: 100%;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    body::before{
+      content:"";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background:
+        radial-gradient(900px 500px at 20% 20%, rgba(24,231,215,.10), transparent 60%),
+        radial-gradient(700px 400px at 75% 35%, rgba(34,199,255,.08), transparent 60%),
+        radial-gradient(900px 500px at 50% 90%, rgba(0,0,0,.55), transparent 60%),
+        linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px);
+      background-size: auto, auto, auto, 48px 48px, 48px 48px;
+      opacity: 1;
+    }
+
+    .neon-glow{
+      box-shadow:
+        0 0 0 1px rgba(24,231,215,.25),
+        0 0 30px rgba(24,231,215,.18),
+        0 0 80px rgba(34,199,255,.10);
+    }
+  </style>
+</head>
+
+<body class="min-h-screen">
+  <!-- Top Nav -->
+  <header class="sticky top-0 z-50 border-b border-white/5 bg-black/15 backdrop-blur">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+      <div class="flex items-center gap-2">
+        <span class="text-[18px] font-semibold tracking-tight text-[var(--neon)]">&lt;AS/&gt;</span>
+      </div>
+
+      <nav class="hidden items-center gap-7 text-sm text-white/70 md:flex">
+        <a href="#home" class="hover:text-white">Home</a>
+        <a href="#skills" class="hover:text-white">Skills</a>
+        <a href="#projects" class="hover:text-white">Projects</a>
+        <a href="#education" class="hover:text-white">Education</a>
+        <a href="#experience" class="hover:text-white">Experience</a>
+        <a href="#contact" class="hover:text-white">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="mx-auto max-w-6xl px-5 py-16 md:py-24">
+    <div class="grid items-center gap-12 md:grid-cols-2">
+      <!-- Left -->
+      <div>
+        <div class="inline-flex items-center gap-2 rounded-full border border-[rgba(24,231,215,.25)] bg-[rgba(24,231,215,.06)] px-4 py-2 text-xs text-[var(--neon)]">
+          &lt;Embedded Software Engineer /&gt;
+        </div>
+
+        <h1 class="mt-6 text-5xl font-extrabold leading-[1.02] tracking-tight md:text-6xl">
+          Abdullah <br />
+          <span class="text-[var(--neon)]">Shehawey</span>
+        </h1>
+
+        <p class="mt-5 max-w-xl text-sm leading-7 text-white/60">
+          Highly motivated Embedded Software Engineer with experience in developing and optimizing embedded systems.
+          Proficient in C/C++, RTOS, and AUTOSAR architecture.
+        </p>
+
+        <!-- Contact pills -->
+        <div class="mt-6 flex flex-wrap gap-3">
+          <div class="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-white/75">
+            <span class="text-[var(--neon)]"><i data-lucide="mail" class="h-4 w-4"></i></span>
+            <span>your-email@example.com</span>
+          </div>
+
+          <div class="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-white/75">
+            <span class="text-[var(--neon)]"><i data-lucide="phone" class="h-4 w-4"></i></span>
+            <span>+20 xxx xxx xxxx</span>
+          </div>
+
+          <div class="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-xs text-white/75">
+            <span class="text-[var(--neon)]"><i data-lucide="map-pin" class="h-4 w-4"></i></span>
+            <span>Your City, Country</span>
+          </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="mt-7 flex flex-wrap items-center gap-3">
+          <a class="neon-glow grid h-11 w-11 place-items-center rounded-xl border border-white/10 bg-white/5 text-white/80 hover:bg-white/10"
+             href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i data-lucide="github" class="h-[18px] w-[18px]"></i>
+          </a>
+
+          <a class="neon-glow grid h-11 w-11 place-items-center rounded-xl border border-white/10 bg-white/5 text-white/80 hover:bg-white/10"
+             href="https://linkedin.com/in/yourname" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i data-lucide="linkedin" class="h-[18px] w-[18px]"></i>
+          </a>
+
+          <!-- ضع ملف cv.pdf بجانب index.html -->
+          <a class="neon-glow inline-flex items-center gap-2 rounded-xl bg-[var(--neon)] px-5 py-3 text-sm font-semibold text-black hover:brightness-110"
+             href="cv.pdf" download>
+            <i data-lucide="download" class="h-[18px] w-[18px]"></i>
+            Download CV
+          </a>
+        </div>
+      </div>
+
+      <!-- Right card -->
+      <div class="flex justify-center md:justify-end">
+        <div class="relative">
+          <div class="neon-glow relative h-[320px] w-[320px] rounded-3xl border border-[rgba(24,231,215,.22)] bg-[rgba(10,16,25,.65)] p-10 md:h-[360px] md:w-[360px]">
+            <div class="absolute left-[-10px] top-1/2 h-[2px] w-8 -translate-y-1/2 bg-[rgba(24,231,215,.25)]"></div>
+            <div class="absolute right-[-10px] top-1/2 h-[2px] w-8 -translate-y-1/2 bg-[rgba(24,231,215,.25)]"></div>
+
+            <div class="flex h-full items-center justify-center">
+              <div class="text-center">
+                <div class="text-5xl font-extrabold text-[var(--neon)]">AS</div>
+                <div class="mt-2 text-xs tracking-widest text-white/45">v2.0.3</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pointer-events-none absolute inset-[-18px] rounded-[28px] bg-[rgba(24,231,215,.06)] blur-2xl"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sections -->
+  <section id="skills" class="mx-auto max-w-6xl px-5 py-14">
+    <div class="rounded-2xl border border-white/5 bg-black/10 p-8">
+      <h2 class="text-xl font-semibold">Skills</h2>
+      <p class="mt-2 text-sm text-white/55">Add your skills here (C/C++, RTOS, AUTOSAR, MCAL, CAN, SPI, I2C...)</p>
+    </div>
+  </section>
+
+  <section id="projects" class="mx-auto max-w-6xl px-5 py-14">
+    <div class="rounded-2xl border border-white/5 bg-black/10 p-8">
+      <h2 class="text-xl font-semibold">Projects</h2>
+      <p class="mt-2 text-sm text-white/55">Add your projects (problem → your role → solution → result).</p>
+    </div>
+  </section>
+
+  <section id="education" class="mx-auto max-w-6xl px-5 py-14">
+    <div class="rounded-2xl border border-white/5 bg-black/10 p-8">
+      <h2 class="text-xl font-semibold">Education</h2>
+      <p class="mt-2 text-sm text-white/55">Add your education info here.</p>
+    </div>
+  </section>
+
+  <section id="experience" class="mx-auto max-w-6xl px-5 py-14">
+    <div class="rounded-2xl border border-white/5 bg-black/10 p-8">
+      <h2 class="text-xl font-semibold">Experience</h2>
+      <p class="mt-2 text-sm text-white/55">Add your experience here.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="mx-auto max-w-6xl px-5 py-14">
+    <div class="rounded-2xl border border-white/5 bg-black/10 p-8">
+      <h2 class="text-xl font-semibold">Contact</h2>
+      <p class="mt-2 text-sm text-white/55">Put email + LinkedIn + phone here.</p>
+    </div>
+  </section>
+
+  <footer class="mx-auto max-w-6xl px-5 py-10 text-sm text-white/45">
+    © <span id="y"></span> Abdullah Shehawey
+  </footer>
+
+  <script>
+    lucide.createIcons();
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
