@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d2d3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#07151f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#bg3)" rx="10"/>
+  <g stroke="#1a4a5a" stroke-width="0.5" opacity="0.4">
+    <line x1="0" y1="40" x2="400" y2="40"/>
+    <line x1="0" y1="80" x2="400" y2="80"/>
+    <line x1="0" y1="120" x2="400" y2="120"/>
+    <line x1="0" y1="160" x2="400" y2="160"/>
+    <line x1="80" y1="0" x2="80" y2="200"/>
+    <line x1="160" y1="0" x2="160" y2="200"/>
+    <line x1="240" y1="0" x2="240" y2="200"/>
+    <line x1="320" y1="0" x2="320" y2="200"/>
+  </g>
+  <!-- Pipeline stages -->
+  <!-- Stage 1: Ingest -->
+  <rect x="18" y="82" width="58" height="36" rx="5" fill="#00e5c8" opacity="0.12" stroke="#00e5c8" stroke-width="1.8"/>
+  <text x="47" y="97" text-anchor="middle" fill="#00e5c8" font-size="8.5" font-family="monospace">INGEST</text>
+  <text x="47" y="110" text-anchor="middle" fill="#00e5c8" font-size="7" font-family="monospace" opacity="0.6">●●●</text>
+  <line x1="76" y1="100" x2="92" y2="100" stroke="#00e5c8" stroke-width="1.8"/>
+  <polygon points="91,96 98,100 91,104" fill="#00e5c8"/>
+  <!-- Stage 2: Validate -->
+  <rect x="99" y="82" width="58" height="36" rx="5" fill="#00e5c8" opacity="0.12" stroke="#00e5c8" stroke-width="1.8"/>
+  <text x="128" y="97" text-anchor="middle" fill="#00e5c8" font-size="8.5" font-family="monospace">VALIDATE</text>
+  <polyline points="113,108 120,114 143,102" fill="none" stroke="#00e5c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="157" y1="100" x2="173" y2="100" stroke="#00e5c8" stroke-width="1.8"/>
+  <polygon points="172,96 179,100 172,104" fill="#00e5c8"/>
+  <!-- Stage 3: Transform -->
+  <rect x="180" y="82" width="58" height="36" rx="5" fill="#00e5c8" opacity="0.12" stroke="#00e5c8" stroke-width="1.8"/>
+  <text x="209" y="97" text-anchor="middle" fill="#00e5c8" font-size="8.5" font-family="monospace">TRANSFORM</text>
+  <circle cx="209" cy="108" r="6" fill="none" stroke="#00e5c8" stroke-width="1.5"/>
+  <line x1="209" y1="102" x2="209" y2="96" stroke="#00e5c8" stroke-width="1.5"/>
+  <line x1="238" y1="100" x2="254" y2="100" stroke="#00e5c8" stroke-width="1.8"/>
+  <polygon points="253,96 260,100 253,104" fill="#00e5c8"/>
+  <!-- Stage 4: Monitor -->
+  <rect x="261" y="82" width="58" height="36" rx="5" fill="#00e5c8" opacity="0.18" stroke="#00e5c8" stroke-width="2"/>
+  <text x="290" y="97" text-anchor="middle" fill="#00e5c8" font-size="8.5" font-family="monospace">MONITOR</text>
+  <polyline points="267,110 272,104 278,108 284,100 290,104 296,96 302,108 308,103 313,108" fill="none" stroke="#00e5c8" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Stage 5: Output -->
+  <rect x="330" y="82" width="52" height="36" rx="5" fill="#00e5c8" opacity="0.2" stroke="#00e5c8" stroke-width="2"/>
+  <text x="356" y="97" text-anchor="middle" fill="#00e5c8" font-size="8.5" font-family="monospace">OUTPUT</text>
+  <rect x="338" y="103" width="34" height="6" rx="2" fill="#00e5c8" opacity="0.5"/>
+  <!-- Log lines at bottom -->
+  <rect x="18" y="138" width="364" height="22" rx="4" fill="#00e5c8" opacity="0.05" stroke="#00e5c8" stroke-width="1" stroke-dasharray="3,2"/>
+  <circle cx="30" cy="149" r="3" fill="#00e5c8" opacity="0.8"/>
+  <rect x="38" y="145" width="45" height="5" rx="2" fill="#00e5c8" opacity="0.3"/>
+  <rect x="88" y="145" width="60" height="5" rx="2" fill="#00e5c8" opacity="0.2"/>
+  <rect x="153" y="145" width="35" height="5" rx="2" fill="#00e5c8" opacity="0.25"/>
+  <circle cx="205" cy="149" r="3" fill="#00e5c8" opacity="0.6"/>
+  <rect x="213" y="145" width="50" height="5" rx="2" fill="#00e5c8" opacity="0.2"/>
+  <rect x="268" y="145" width="40" height="5" rx="2" fill="#00e5c8" opacity="0.3"/>
+  <text x="200" y="178" text-anchor="middle" fill="#00e5c8" font-family="monospace" font-size="11" opacity="0.7">PREMIUM · MULTI-STEP PIPELINE</text>
+</svg>
